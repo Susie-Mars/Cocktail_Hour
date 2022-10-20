@@ -26,7 +26,7 @@
             <div class="mt-2 p-2">
                 <div id="con1">
                     <!-- SEARCH DRINK BY NAME -->
-                    <form id="con2" class="container-lg border m-3 d-flex flex-column text-light">
+                    <form id="con2" class="container-lg border border-dark m-3 d-flex flex-column text-dark">
                         <div class="mb-1">
                             <label for="coName" class="form-label mt-2">Search by Cocktail Name:</label>
                             <input type="text" name="coName" id="coName" class="form-control form-control-sm"
@@ -35,7 +35,7 @@
                         </div>
                     </form>
                     <!-- SEARCH DRINK BY INGREDIENT -->
-                    <form id="con3"class="container-lg border m-3 d-flex flex-column  text-light">
+                    <form id="con3"class="container-lg border border-dark  m-3 d-flex flex-column  text-dark">
                         <div class="mb-1">
                             <label for="coIngredient" class="form-label mt-2">Search by Ingredient Name:</label>
                             <input type="text" name="coIngredient" id="coIngredient"
@@ -46,22 +46,22 @@
                     <button class="btn btn-sm btn-secondary m-3 mt-1" id="buttonran">
                         Or pick a cocktail at random!</button>
                     <!-- DIV TO SHOW RANDOM COCKTAIL RESULTS -->
-                    <div id="randResults" class="container border m-3 mb-3 text-light"></div>
+                    <div id="randResults" class="container border border-dark m-3 mb-3 text-dark"></div>
                     <!-- DIV TO DISPLAY COCKTAIL SEARCH RESULTS -->
-                    <div id="coResults" class="container border m-3 mb-3 text-light text-center"></div>
+                    <div id="coResults" class="container border border-dark m-3 mb-3 text-dark text-center"></div>
                     <!-- DIV TO DISPLAY COCKTAIL INGREDIENT SEARCH RESULTS -->
-                    <div id="ingResults" class="container border m-3 mb-3 text-light text-center"></div>
+                    <div id="ingResults" class="container border border-dark m-3 mb-3 text-dark text-center"></div>
                 </div>
             </div>
             <!-- RIGHT SIDE DIVS/LOGIN AND REGISTRATION -->
             <div class="row m-2 d-flex flex-column">
                 <!-- LOGIN DIV -->
                 <div class="col m-3">
-                    <form id="con3" class="container border text-light p-2 mt-1" action="/users/login" method="post">
+                    <form id="con3" class="container border border-dark text-dark p-2 mt-1" action="/users/login" method="post">
                         {% for message in get_flashed_messages(category_filter=['log']) %}
-                        <p class="text-light">{{message}}</p>
+                        <p class="text-dark">{{message}}</p>
                         {% endfor %}
-                        <h6 class="text-light">Login</h6>
+                        <h6 class="text-dark">Login</h6>
                         <div>
                             <label for="email">Email:</label>
                             <input type="text" name="email" _name id="email" class="form-control form-control-sm"
@@ -77,14 +77,14 @@
                 </div>
                 <!-- REGISTER DIV -->
                 <div class="col m-3">
-                    <form id="con4" class="container border text-light p-2" action="/users/register" method="post">
+                    <form id="con4" class="container border border-dark text-dark p-2" action="/users/register" method="post">
                         {% for message in get_flashed_messages(category_filter=['reg']) %}
-                        <p class="text-light">{{message}}</p>
+                        <p class="text-dark">{{message}}</p>
                         {% endfor %}
-                        <h6 class="text-light">Register</h6>
+                        <h6 class="text-dark">Register</h6>
                         <div>
-                            <label for="email" class="text-light">Email:</label>
-                            <input type="text" name="email" id="email2" class="form-control form-control-sm"
+                            <label for="email" class="text-dark">Email:</label>
+                            <input type="text" name="email" id="email2" class="form-control form-control-sm "
                                 placeholder="example: joe@aol.com">
                         </div>
                         <div>

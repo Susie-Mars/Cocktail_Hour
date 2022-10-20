@@ -28,12 +28,13 @@ div:empty {
 
 #btn1, #btn2, #btn3, #btn4 {
     background-color:  rgb(131, 17, 17);
+    box-shadow: 1px 1px 1px black;
 }
 
 
 #con2, #con3, #con4, #con5 {
-    background-color: rgb(40, 5, 5);
-    opacity: .9;
+    background-color: rgba(210, 152, 105, 0.85);
+
 }
 
 
@@ -49,7 +50,7 @@ div:empty {
 }
 
 #randResults {
-    background-color: rgb(40, 5, 5);
+    background-color: rgba(210, 152, 105, 0.85);
     opacity: .9;
     padding: 10px;
 }
@@ -73,8 +74,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(40, 5, 5);
-    opacity: .9;
+    background-color: rgba(210, 152, 105, 0.85);
     padding: 10px;
 }
 
@@ -82,8 +82,7 @@ ul {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    background-color: rgb(40, 5, 5);
-    opacity: .9;
+    background-color: rgba(210, 152, 105, 0.85);
     padding: 10px;
 }
 
@@ -95,8 +94,11 @@ a {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    background-color: rgb(40, 5, 5);
-    opacity: .9;
+    background-color: rgba(210, 152, 105, 0.85);
     padding: 10px;
+}
+
+#coName {
+    opacity: 1;
 }
 
