@@ -20,16 +20,16 @@ function searchDrink(event) {
             console.log(drinkData) 
             coResultsDiv.innerHTML = `
             <div class="drResults">
-                <img class="drinkImgSearch" src="${drinkData.drinks[0].strDrinkThumb}">
-                <a href=""> ${drinkData.drinks[0].strDrink}</a>
+                ${drinkData.drinks[0].strDrinkThumb == null ? "": `<img class="drinkImgSearch" src="${drinkData.drinks[0].strDrinkThumb}">`}
+                ${drinkData.drinks[0].strDrink == null ? "": `<a href=""> ${drinkData.drinks[0].strDrink}</a>`}
             </div>
             <div class="drResults">
-                <img class="drinkImgSearch" src="${drinkData.drinks[1].strDrinkThumb}">
-                <a href=""> ${drinkData.drinks[1].strDrink}</a>
+                ${drinkData.drinks[1].strDrinkThumb == null ? "": `<img class="drinkImgSearch" src="${drinkData.drinks[1].strDrinkThumb}">`}
+                ${drinkData.drinks[1].strDrink == null ? "": `<a href=""> ${drinkData.drinks[1].strDrink}</a>`}
             </div>
             <div class="drResults">
-                <img class="drinkImgSearch" src="${drinkData.drinks[2].strDrinkThumb}">
-                <a href=""> ${drinkData.drinks[2].strDrink}</a>
+                ${drinkData.drinks[2].strDrinkThumb == null ? "": `<img class="drinkImgSearch" src="${drinkData.drinks[2].strDrinkThumb}">`}
+                ${drinkData.drinks[2].strDrink == null ? "": `<a href=""> ${drinkData.drinks[2].strDrink}</a>`}
             </div>
 `})
         .catch(err => console.log(err));
@@ -49,16 +49,16 @@ function searchIng(event) {
             console.log(drinkData)
             ingResultsDiv.innerHTML = `
             <div class="drResults">
-                <img class="drinkImgSearch" src="${drinkData.drinks[0].strDrinkThumb}">
-                <a href=""> ${drinkData.drinks[0].strDrink}</a>
+                ${drinkData.drinks[0].strDrinkThumb == null ? "": `<img class="drinkImgSearch" src="${drinkData.drinks[0].strDrinkThumb}">`}
+                ${drinkData.drinks[0].strDrink == null ? "": `<a href=""> ${drinkData.drinks[0].strDrink}</a>`}
             </div>
             <div class="drResults">
-                <img class="drinkImgSearch" src="${drinkData.drinks[1].strDrinkThumb}">
-                <a href=""> ${drinkData.drinks[1].strDrink}</a>
+                ${drinkData.drinks[1].strDrinkThumb == null ? "": `<img class="drinkImgSearch" src="${drinkData.drinks[1].strDrinkThumb}">`}
+                ${drinkData.drinks[1].strDrink == null ? "": `<a href=""> ${drinkData.drinks[1].strDrink}</a>`}
             </div>
             <div class="drResults">
-                <img class="drinkImgSearch" src="${drinkData.drinks[2].strDrinkThumb}">
-                <a href=""> ${drinkData.drinks[2].strDrink}</a>
+                ${drinkData.drinks[2].strDrinkThumb == null ? "": `<img class="drinkImgSearch" src="${drinkData.drinks[2].strDrinkThumb}">`}
+                ${drinkData.drinks[2].strDrink == null ? "": `<a href=""> ${drinkData.drinks[2].strDrink}</a>`}
             </div>
 `})
         .catch(err => console.log(err));
