@@ -1,0 +1,102 @@
+body {
+    background-image: url("barback.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: Tahoma, sans-serif;
+}
+
+div:empty {
+    display: none;
+}
+
+#con1 {
+    width: 500px;
+    height: 100px;
+}
+
+.drinkImgSearch {
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    border: 2px solid white;
+}
+
+#buttonran {
+    background-color: rgb(131, 17, 17);
+    box-shadow: 5px 5px 5px black;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    background-color:  rgb(131, 17, 17);
+}
+
+
+#con2, #con3, #con4, #con5 {
+    background-color: rgb(40, 5, 5);
+    opacity: .9;
+}
+
+
+#navbar {
+    background-color: rgb(40, 5, 5);
+}
+
+#drinkImg {
+    height: 175px;
+    width: 175px;
+    border-radius: 150px;
+    border: 2px solid white;
+}
+
+#randResults {
+    background-color: rgb(40, 5, 5);
+    opacity: .9;
+    padding: 10px;
+}
+
+
+#drinkInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.drResults {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(40, 5, 5);
+    opacity: .9;
+    padding: 10px;
+}
+
+#coResults {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: rgb(40, 5, 5);
+    opacity: .9;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+#ingResults {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: rgb(40, 5, 5);
+    opacity: .9;
+    padding: 10px;
+}
+
