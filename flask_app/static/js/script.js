@@ -8,12 +8,6 @@ const options = {
     }
 };
 
-// let drink = {
-//     name: document.querySelector("div > h2"),
-//     photo: document.querySelector("img"),
-//     ingredients: document.querySelector("li"),
-//     instructions: document.querySelector("p")
-// };
 
 // FUNCTION TO SEARCH BY DRINK NAME
 document.querySelector("#btn1").addEventListener("click", searchDrink)

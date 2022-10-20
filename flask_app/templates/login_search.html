@@ -16,9 +16,6 @@
         <!-- NAV BAR -->
         <div id="navbar" class="d-flex justify-content-start opacity-75 text-white">
             <h1 class="m-3">Cocktail Hour</h1>
-            {% if logged_user in session %}
-            <a href="/dashboard">See saved recipes</a>
-            {% endif %}
         </div>
         <!-- ENTIRE PAGE BELOW NAVBAR -->
         <div class="d-flex justify-content-center ">
@@ -43,6 +40,7 @@
                             <button class="btn btn-sm btn-secondary mt-1 mb-1" id="btn2">Submit</button>
                         </div>
                     </form>
+                    <!-- PICK AT RANDOM BUTTON -->
                     <button class="btn btn-sm btn-secondary m-3 mt-1" id="buttonran">
                         Or pick a cocktail at random!</button>
                     <!-- DIV TO SHOW RANDOM COCKTAIL RESULTS -->
