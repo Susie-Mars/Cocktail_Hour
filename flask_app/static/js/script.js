@@ -3,7 +3,7 @@ console.log("script attached successfully")
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '87181d1662msh5a65ab6db8e87a5p14ba3ejsnfa44d45d0ebc',
+        'X-RapidAPI-Key': '',
         'X-RapidAPI-Host': 'the-cocktail-db.p.rapidapi.com'
     }
 };
