@@ -6,8 +6,8 @@
 
 
 
-<img width="948" alt="CocktailHour1" src="https://user-images.githubusercontent.com/109564443/197076257-a45b00b3-ac3c-446e-9ef6-4319b9fdc0ea.png">
+<img width="948" alt="CHlandingpage" src="https://user-images.githubusercontent.com/109564443/197082593-048b8fb7-bbbb-4a89-a230-637a74fd0670.png">
 
-<img width="947" alt="randomDrink" src="https://user-images.githubusercontent.com/109564443/197076579-02fb9c4c-9e6f-42ce-b3fc-b4bc5b2551b2.png">
+<img width="947" alt="searchRand" src="https://user-images.githubusercontent.com/109564443/197082622-b6c4dceb-0a5a-4e3c-9ba7-858d8471bf00.png">
 
-<img width="948" alt="searchIngredients" src="https://user-images.githubusercontent.com/109564443/197076724-4032e904-163e-4db7-bc9b-7facb7c89549.png">
+<img width="948" alt="searchRes" src="https://user-images.githubusercontent.com/109564443/197082635-bf915dd5-071d-4097-b8a0-2237a0fe1356.png">
