@@ -1,6 +1,6 @@
 
 <h3>Cocktail Hour</h3>
-<p>This is a project made using the Cocktail DB API along with Javascript, Python, HTML, CSS, and SQL.Background photography by Dave Allred. </p>
+<p>This is a project made using the Cocktail DB API along with Javascript, Python, HTML, CSS, and SQL. Background photography by Dave Allred. </p>
 
 
 
